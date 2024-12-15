@@ -14,14 +14,188 @@
   }
 }
 
+html, 
+
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#__next{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* #welcome{
+   margin-bottom: 500px; 
+} */
+
+#top{
+  background-color: #272343;
+}
+
+#toptext{
+  margin-right: 70px;
+}
+
+#second{
+  background-color: #f0f2f3;
+}
+
+#nav{
+  background-color: #ffffff;
+  box-shadow: 0,1,0;
+}
+
+:hover #nav
+{
+  background-color: #e1e3e5;
+}
+
+#navmain{
+  background-color: #ffffff;
+}
+
+#navhome{
+  color: #007580;
+}
+
+#navbar{
+  color:#636270;
+
+
+}
+
+#navp{
+  color: #636270;
+}
+
+#wel{
+  background-color: #f0f2f3;
+  margin-top: 161px;
+  margin-left: 120px;
+}
+
+#text{
+
+  padding-top: 161px;
+  padding-left: 70px;
+  border-radius: 8px;
+}
+
+#welp{
+  color: #272343; 
+}
+
+.welbut{
+  background-color:#029faf ;
+  padding-top: 14px ;
+  padding-bottom: 14px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 8px;
+  margin-left: 70px;
+}
+
+
+#welbot{
+  margin-left: 120px;
+}
+
+#fea{
+  margin-left: 40px;
+}
+
+#feap{
+  color: #029faf;
+}
+
+.feapic{
+  margin-left: 120px;
+
+}
+
+#protext{
+  margin-left: 200px;
+}
+
+.cata{
+  margin-top: 120px;
+}
+
+.exp{
+  margin-top: 150px;
+
+}
+
+.expt{
+  margin-right: 180px;
+}
+
+/* Footer Container */
+#footer{
+  background-color: #ffffff;
+  padding: 20px; /* Add consistent padding */
+}
+
+/* Footer Text Styling */
+#footerl {
+  color: #272343; 
+  padding-top: 30px; /* Use padding instead */
+}
+
+/* Footer Paragraph Styling */
+#footerp {
+    color: #272343; 
+
+}
+
+/* Footer Highlight Text */
+.foott {
+  color: #029faf;
+  font-weight: bold;
+}
+
+/* Footer Top Section */
+.footop {
+  padding-top: 20px;
+}
+
+.footbut{
+  background-color: #029faf;
+}
+
+.faq{
+  margin-top: 161px;
+  margin-left: 130px;
+  border: 2px solid green;
+}
+
+
+.faqad{
+  margin-left: 100px;
+}
+
+
+#products{
+  margin-top: 200px;
+  margin-bottom: 900px;
+
+}
+
+#new{
+  background-color: #e1e3e5;
+  
 }
