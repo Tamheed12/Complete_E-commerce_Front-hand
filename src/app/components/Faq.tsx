@@ -12,13 +12,8 @@ export default function Faq() {
   
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* FAQ Card */}
-          {Array(6)
-            .fill(null)
-            .map((_, index) => (
-              <div
-                key={index}
-                className="bg-gray-200 rounded-md p-4 shadow-md hover:shadow-lg transition-shadow duration-300"
-              >
+  
+              <div className="bg-gray-200 rounded-md p-4 shadow-md hover:shadow-lg transition-shadow duration-300">
                 <h1 className="text-[15px] font-medium flex justify-between items-center">
                   What types of chairs do you offer?
                   <span className="text-2xl font-bold cursor-pointer">+</span>
@@ -28,7 +23,6 @@ export default function Faq() {
                   veritatis enim repellat optio natus eum delectus deserunt, odit expedita eos molestiae ipsa totam quidem?
                 </p>
               </div>
-            ))}
         </div>
       </main>
     );
