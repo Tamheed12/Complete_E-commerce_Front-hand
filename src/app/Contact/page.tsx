@@ -1,4 +1,4 @@
-import Info from "./contact/Info";
+import Info from "../components/contact/Info";
 import Image from "next/image";
 
 export default function Contact() {

@@ -2,13 +2,13 @@ import Image from "next/image"
 
 export default function Featured() {
     return (
-        <div className="w-full sm:w-[90%] md:w-[80%] h-auto" id="fea">
+        <div className="w-full center sm:w-[90%] md:w-[80%] h-auto center" id="fea">
             {/* Featured Products */}
             <h1 className="text-2xl text-center mt-5">Featured Products</h1>
 
-            <div className="flex flex-wrap justify-center gap-6 mt-10 p-6">
+            <div className="flex flex-row justify-center gap-6 mt-10 p-6">
                 {/* First featured product */}
-                <div className="mb-10 w-full sm:w-[312px] md:w-[312px] lg:w-[312px] h-[300px] rounded-md p-2 bg-[url('/ppsa.png')]">
+                <div className="mb-10 w-full sm:w-[312px] md:w-[312px] lg:w-[312px] h-[300px] rounded-md p-2">
                     <Image src={"/ppsa.png"} alt="chair" width={312} height={300} />
                     <div className="bg-green-700 rounded-md h-[35px] w-[80px] mt-2 p-2 pl-4">New</div>
                     <div className="flex pt-5 mt-3 justify-between">

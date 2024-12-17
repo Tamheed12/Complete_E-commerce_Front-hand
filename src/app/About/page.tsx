@@ -1,5 +1,5 @@
-import Comforty from "./about/Comfort";
-import ProductOur from "./about/PopularOur";
+import Comforty from "../components/about/Comfort";
+import ProductOur from "../components/about/PopularOur";
 import Image from "next/image";
 
 export default function About() {

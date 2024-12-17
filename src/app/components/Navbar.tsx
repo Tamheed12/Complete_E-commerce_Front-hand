@@ -1,4 +1,7 @@
-import Link from "next/link"
+import Link from "next/link";
+import React from "react"
+
+
 
 export default function Navabar()
 {
@@ -8,16 +11,17 @@ export default function Navabar()
             
             <div className="flex justify-between" id="navmain">
                 <div id="navbar" className="w-full h-[74px]">
-                    <div className=" w-[339px] h-[15px] p-6 ml-20">
-                        <Link href={"/Welcome"} className="p-3">
+        
+                    <div className=" w-[339px] h-[15px] p-6 ml-20 flex flex-row">
+                        <Link href={"./Welcome"} className="p-3">
                             Home
                         </Link>
-                        <Link href={""} className="p-3">
-                            Shop
+                        <Link href={"./Single"} className=" p-3">
+                            Single_Prduct
                         </Link>
-                        <Link href={"/Product"} className="p-3">Product</Link>
-                        <Link href={"/Contact"} className="p-3">Contact</Link>
-                        <Link href={"/About.tsx"} className="p-3">About  </Link>
+                        <Link href={"./Product"} className="p-3">Product</Link>
+                        <Link href={"./Contact"} className="p-3">Contact</Link>
+                        <Link href={"./About"} className="p-3">About  </Link>
                     </div>
                 </div>
                 <div className="flex p-5 mr-8">

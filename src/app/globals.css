@@ -114,9 +114,6 @@ body {
   margin-left: 120px;
 }
 
-#fea{
-  margin-left: 40px;
-}
 
 #feap{
   color: #029faf;
@@ -190,8 +187,7 @@ body {
 
 
 #products{
-  margin-top: 200px;
-  margin-bottom: 900px;
+  margin-bottom: 100px; 
 
 }
 

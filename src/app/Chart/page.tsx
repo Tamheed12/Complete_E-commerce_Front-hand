@@ -1,5 +1,5 @@
-import Bag from "./cart/Bag";
-import Summary from "./cart/Summary";
+import Bag from "../components/cart/Bag";
+import Summary from "../components/cart/Summary";
 
 export default function Cart() {
     return (

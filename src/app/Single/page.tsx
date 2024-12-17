@@ -1,5 +1,5 @@
-import Featuredp from "./single/Featuredp";
-import Library from "./single/Library";
+import Featuredp from "../components/single/Featuredp";
+import Library from "../components/single/Library";
 
 export default function Single() {
     return (

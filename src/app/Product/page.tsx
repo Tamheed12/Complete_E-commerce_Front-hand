@@ -1,6 +1,5 @@
-import Allproduct from "./product/Allproduct";
-import News from "./product/News";
-
+import Allproduct from "../components/product/Allproduct";
+import News from "../components/product/News";
 
 export default function Productpage()
 {
