@@ -27,7 +27,7 @@ export default function Header() {
                 </div>
                 <div className="w-[120px] h-[44px] mt-5 mb-5 mr-20 ml-16">
                     <button>
-                        <Image src="/head2.png" alt="Shopping Cart" width={120} height={70} />
+                        <Link href={"./Cart"}><Image src="/head2.png" alt="Shopping Cart" width={120} height={70} /></Link>
                     </button>
                 </div>
             </div>
