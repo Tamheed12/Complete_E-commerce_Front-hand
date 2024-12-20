@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# E-commerce UI/UX Design
 
-## Getting Started
+## Project Overview
 
-First, run the development server:
+This project is a pixel-perfect implementation of a Figma template for an e-commerce website. The website is designed with a focus on precision and responsiveness, providing a seamless user experience across all devices.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Framework**: Next.js 14
+- **Language**: TypeScript
+- **Components**: Link and Image Components from Next.js
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Pixel-perfect design based on the provided Figma templates.
+- Fully responsive layout with assistance from ChatGPT.
+- The project consists of 7 templates, broken down into 26 components to ensure simplicity and reduce complexity.
+- Includes a cart page designed with custom hand-coded styling.
 
-## Learn More
+## Installation and Setup
 
-To learn more about Next.js, take a look at the following resources:
+To set up the project locally, follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   git clone <repository-url>
+   cd <repository-folder>
+   ```
 
-## Deploy on Vercel
+2. Install dependencies:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to:
+
+   ```
+   http://localhost:3000
+   ```
+
+## Usage
+
+Run the project like any other Next.js project. Follow the setup instructions above, and you’re good to go!
+
+## Additional Notes
+
+- The cart page was implemented with hand-coded styling but lacks linking functionality at the moment.
+- Every pixel was carefully crafted for accuracy.
+
+## Author
+
+Designed and developed by Tamheed Tariq.
+
+
