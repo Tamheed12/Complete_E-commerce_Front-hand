@@ -94,8 +94,7 @@ const CartPage: React.FC = () => {
                       <span>{item.quantity}</span>
                       <button
                         onClick={() => handleIncreaseQuantity(item.id)}
-                        className="text-xl text-gray-600 hover:text-gray-800"
-                      >
+                        className="text-xl text-gray-600 hover:text-gray-800">
                         +
                       </button>
                     </div>
@@ -103,8 +102,7 @@ const CartPage: React.FC = () => {
                   <div className="flex items-center gap-4 mt-2">
                     <button
                       onClick={() => removeFromCart(item.id)}
-                      className="text-black hover:text-red-700"
-                    >
+                      className="text-black hover:text-red-700">
                       <AiOutlineDelete className="w-5 h-5 cursor-pointer hover:text-red-700" />
                     </button>
                     <button
