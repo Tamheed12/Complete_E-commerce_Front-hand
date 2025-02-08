@@ -6,6 +6,7 @@ import { useCart } from '../context/cartContext';
 import { useWishlist } from '../context/wishlistContext'; // Import wishlist context
 import imageUrlBuilder from '@sanity/image-url'; // Import the image URL builder
 import { FaSearch, FaCartPlus, FaHeart } from 'react-icons/fa'; // Import cart and heart icons
+import Image from "next/image";
 
 // Sanity image URL builder setup
 const builder = imageUrlBuilder(client);
@@ -154,7 +155,7 @@ const ProductPage: React.FC = () => {
                   {product.badge.toUpperCase()}
                 </span>
               )}
-              <img
+              <Image
                 src={urlFor(product.image).width(500).url()}
                 alt={product.title}
                
@@ -225,7 +226,7 @@ const ProductPage: React.FC = () => {
           {products.slice(3, 9).map((product) => (
             <div key={product._id} className="bg-gray-100 p-4 rounded-lg shadow-md">
               <div className="relative w-full h-50 mb-4">
-                <img
+                <Image
                   src={urlFor(product.image).width(500).url()} // Generate image URL for product
                   alt={product.title}
                   

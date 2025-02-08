@@ -4,7 +4,6 @@ import React from "react";
 import { useWishlist } from "../context/wishlistContext"; // Import wishlist context
 import { useCart } from "../context/cartContext"; // Import cart context
 import { AiOutlineDelete } from "react-icons/ai";
-import Link from "next/link";
 import Image from "next/image";
 
 const WishlistPage: React.FC = () => {
