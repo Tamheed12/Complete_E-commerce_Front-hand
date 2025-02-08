@@ -22,6 +22,7 @@ const CheckoutPage: React.FC = () => {
     shippingMethod: "",
     orderNotes: "",
   });
+  
   const [error, setError] = useState("");
   const [orderSuccess, setOrderSuccess] = useState(false);
   const router = useRouter();

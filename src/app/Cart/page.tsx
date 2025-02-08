@@ -7,6 +7,7 @@ import { useWishlist } from "../context/wishlistContext";
 import { AiOutlineHeart, AiOutlineDelete } from "react-icons/ai";
 import Link from "next/link";
 
+
 const CartPage: React.FC = () => {
   const { cart, removeFromCart, updateCartQuantity } = useCart();
   const { wishlist, addToWishlist, removeFromWishlist } = useWishlist();
@@ -76,8 +77,7 @@ const CartPage: React.FC = () => {
             {cart.map((item) => (
               <div
                 key={item.id}
-                className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-6 border-b pb-4"
-              >
+                className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-6 border-b pb-4">
                 <img src={item.image} alt={item.name} className="w-20 h-20" />
                 <div className="flex-1 ml-4">
                   <p className="text-lg font-semibold">{item.name}</p>

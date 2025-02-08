@@ -16,6 +16,7 @@ const nextConfig = withPWA({
 });
 module.exports = {
   images: {
+    ignoreDuringBuilds: true,
     domains: ['https://giaic-hackathon-template-08.vercel.app'], // Add the domain here
   },
 };
